@@ -1,7 +1,9 @@
+from pwinput import pwinput
+
 def inputInformation() -> dict:
 	return {
 		"site": input("Site you're using: "),
-		"secret": input("Your secret phrase: "),
+		"secret": pwinput("Your secret phrase: "),
 	}
 
 def outputData(data) -> None:
