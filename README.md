@@ -8,7 +8,7 @@ pip3 install -r -requirements.txt
 
 ## 💻 Usage
 ```bash
-python Main.py
+python3 Main.py
 ```
 Give in the site you're creating a login for and a secret phrase.
 You can see the secret phrase as a sort of masterkey.
